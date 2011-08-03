@@ -12,8 +12,8 @@ NextGEN Z Cropper is a plugin that resizes and crops(!) your pictures while uplo
 
 == Description ==
 
-Definition: NextGEN ZCropper is plugin that resizes and crops(!) your pictures while uploading. It will always match your selected width and height, trying to display as much as possible of the original image.
-Why: I found several people like me requesting an instant crop functionality for NextGEN Gallery Images (not the thumbnails). Here it is ;) Any feature requests: Go to http://vogelundstrauss.de/blog
+Definition: NextGEN ZCropper is a plugin that resizes and crops(!) your pictures while uploading. It will always match your selected width and height, trying to display as much as possible of the original image.
+Why: I found several people like me requesting an instant crop functionality for NextGEN Gallery Images (not only the thumbnails). Here it is ;) Any feature requests: Go to http://vogelundstrauss.de/blog
 Required: This plugin requires [Alex Rabe's](http://alexrabe.de/) - [NextGEN Gallery Plugin](http://wordpress.org/extend/plugins/nextgen-gallery/)
 
 To report bugs/give feedback/request support, please visit the vogelundstrauss.de/blog [wordpress plugin support](http://vogelundstrauss.de/blog).
@@ -37,11 +37,11 @@ NOTE: You require NextGEN Gallery Plugin by http://AlexRabe.de!
 
 This section describes how to install the plugin and get it working.
 
-1. Read this manual completely
+1. Read the manual completely
 2. Make sure you meet the requirements
 3. Upload folder `nextgen-zcropper` to the `/wp-content/plugins/` directory
 4. Activate the plugin through WordPress's plugins menu
-5. Setup once and use as described in the How To section
+5. Setup once and use as described in the How To section (see Other Notes)
 
 == FAQ ==
 
@@ -49,8 +49,8 @@ Check http://vogelundstrauss.de/blog and ask any questions about the plugin usin
 
 == Screenshots ==
 
-1. screenshotzcropper.png - What Z Cropper does ...
-2. screenshotzcropper2.png - How to setup Z Cropper ...
+1. What Z Cropper does ...
+2. How to setup Z Cropper ...
 
 == Changelog ==
 
