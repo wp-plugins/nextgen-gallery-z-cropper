@@ -26,7 +26,7 @@ Author URI: http://vogelundstrauss.de
 */
 // error_reporting(E_ALL); /*Notice marte salla*/
 
-require_once( WP_PLUGIN_DIR . '/nextgen-zcropper/simpleimage.php');
+require_once( WP_PLUGIN_DIR . '/nextgen-gallery-z-cropper/simpleimage.php');
 
 
 if ( in_array('nggLoader', get_declared_classes())){
@@ -41,7 +41,7 @@ if ( in_array('nggLoader', get_declared_classes())){
      }  
      else
      { 
-     	echo "<div id=\"message\" class=\"updated fade\"><p>NextGEN Cropper:<a href=\"http://wordpress.org/extend/plugins/nextgen-gallery/\" target=\"_blank\">NextGEN Gallery Plugin</a> Not found</p></div>";
+     	echo "<div id=\"message\" class=\"updated fade\"><p>NextGEN Cropper:<a href=\"http://wordpress.org/extend/plugins/nextgen-gallery-z-cropper/\" target=\"_blank\">NextGEN Gallery Plugin</a> Not found</p></div>";
      }
      
      
