@@ -29,20 +29,11 @@ Author URI: http://vogelundstrauss.de
 require_once( WP_PLUGIN_DIR . '/nextgen-gallery-z-cropper/simpleimage.php');
 
 
-if ( in_array('nggLoader', get_declared_classes())){
-		
-		register_activation_hook( __FILE__, 'cropperinstalls' );
-		add_action('ngg_added_new_image','cropperuploadsngg',1);
-		add_action('admin_menu', 'cropadminmenu');
+register_activation_hook( __FILE__, 'cropperinstalls', 100 );
+		add_action('ngg_added_new_image','cropperuploadsngg',99);
+		add_action('admin_menu', 'cropadminmenu',100);
 		 if ( function_exists('register_uninstall_hook') ){
-    register_uninstall_hook(__FILE__, 'cropperuninstalls');}
-
-		//echo "Nextgen Found";
-     }  
-     else
-     { 
-     	echo "<div id=\"message\" class=\"updated fade\"><p>NextGEN Cropper:<a href=\"http://wordpress.org/extend/plugins/nextgen-gallery-z-cropper/\" target=\"_blank\">NextGEN Gallery Plugin</a> Not found</p></div>";
-     }
+    register_uninstall_hook(__FILE__, 'cropperuninstalls',100);}
      
      
      /*function that will add a next-gen resize page under the gallery tab*/
